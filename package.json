@@ -1,0 +1,33 @@
+{
+  "name": "deutschfurkinderzweitsprache_1",
+  "version": "1.0.0",
+  "description": "Deutsch als Zwaitsprache (DaZ) 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiswallz/DKaZ_First.git"
+  },
+  "keywords": [
+    "game",
+    "kinder",
+    "deutsch"
+  ],
+  "author": "Mauricio Joost Wolff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiswallz/DKaZ_First/issues"
+  },
+  "homepage": "https://github.com/thiswallz/DKaZ_First#readme",
+  "dependencies": {
+    "pixi.js": "^4.8.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "http-server": "^0.11.1"
+  }
+}
