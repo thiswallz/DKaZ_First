@@ -4,17 +4,15 @@
   "description": "Deutsch als Zwaitsprache (DaZ) 1",
   "main": "index.js",
   "scripts": {
+    "babel": "babel --presets es2015 js/main.js -o build/main.bundle.js",
+    "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/thiswallz/DKaZ_First.git"
   },
-  "keywords": [
-    "game",
-    "kinder",
-    "deutsch"
-  ],
+  "keywords": ["game", "kinder", "deutsch"],
   "author": "Mauricio Joost Wolff",
   "license": "ISC",
   "bugs": {
