@@ -1,10 +1,14 @@
-"use strict";
+'use strict';
 
-var UPPER_VELOCITY = 10;
-var LOWER_VELOCITY = 2;
-var MAX_SIZE = innerWidth * .05;
-var MIN_SIZE = innerWidth * .025;
-var MAX_PARTICLES = 1000;
-var AMOUNT = 0;
-var COLOR = 0xffffff;
-var GRAPHIC_SIZE = 500;
+var _pixi = require('pixi.js');
+
+var PIXI = _interopRequireWildcard(_pixi);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+var type = 'WebGL';
+if (!PIXI.utils.isWebGLSupported()) {
+  type = 'canvas';
+}
+
+PIXI.utils.sayHello(type);
