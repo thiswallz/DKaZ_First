@@ -9,5 +9,6 @@
 - First episode (Schule 1. Klasse)
 
 #### TODO
-
-[] Easy way to set up other languages, for everyone who wants to help creating another app based on this one.
+- [ ] Menu
+- [ ] Session, save in localstorage to save space
+- [ ] Easy way to set up other languages, for everyone who wants to help creating another app based on this one.
